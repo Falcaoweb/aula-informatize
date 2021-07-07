@@ -1,0 +1,31 @@
+@import url(tiny.css) (min-width:300px);
+@import url(small.css) (min-width:600px);
+@import url(big.css) (min-width:900px);
+@media screen and (max-width: 300px) {
+    /* estilos */
+   }
+   @media screen and (max-width: 600px) {
+   /* Estilos */
+   }
+   @media screen and
+(min-width: 200px) and
+(max-width: 640px)
+@media screen and
+(min-width: 600px) and
+(orientation:landscape)
+
+
+@media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width:90%;
+    }
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  } 
+.full-width-img {
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+
+
+
+
+  :root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(118, 180, 145);
+    --cor-primaria: rgb(231, 241, 236);
+}
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #fff1ac;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+    --cor7: #204969;
+    --cor8: #ccc;
+    --cor9: rgb(173, 22, 22);
+    --font-pdrao: arial, verdana, helvetica, sans-serif;
+    --font-destaque: 'bebas, neut, cursive';
+    --font-android: 'android', 'cursive';
+}
+body{
+    background-color: var(--cor9);
+}
+.dp-menu{
+    flex-direction: row;
+    text-align: center;
+}
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+.dp-menu ul {
+    background-color: white;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    transition: background .6s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+    align-items: center;
+}
