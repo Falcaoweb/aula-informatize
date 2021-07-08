@@ -63,7 +63,6 @@
     border-radius: 14px;
 }
 
-
 #conteudo {
     background-color: var(--cor0);
     display: flex;
@@ -71,25 +70,25 @@
     border-radius: 14px;
 }
 
-#conteudo h1 {
+h1 {
     text-align: center;
     font-size: 1.2rem;
 }
 
-#conteudo .titulo {
+.titulo {
     text-align: center;
     font-size: 3rem;
     color: var(--cor9);
 }
 
-#conteudo p {
+p {
     text-align: center;
 }
 
 hr {
     width: 60%;
-   margin: auto;
-   color: red;
+    margin: auto;
+    color: red;
 }
 
 .conteudo-site {
@@ -152,32 +151,32 @@ hr {
 }
 
 .cont-site .site-tres .comentario h2 {
-   padding: 0px;
+    padding: 0px;
     text-align: center;
     font-size: 3rem;
-    color: white; 
-   margin: auto;
-   color: white;
-   background-color: var(--cor9);
-   
+    color: white;
+    margin: auto;
+    color: white;
+    background-color: var(--cor9);
 }
+
 .cont-site .site-tres .comentario h3 {
     text-align: center;
     font-size: 3rem;
     color: white;
     font-size: 1.5rem;
     background-color: var(--cor9);
-   }
-   .cont-site .site-tres .comentario p {
+}
+
+.cont-site .site-tres .comentario p {
     text-align: center;
     font-size: 3rem;
     color: white;
     font-size: 1.0rem;
     text-align: justify;
     background-color: var(--cor9);
-  
-   
 }
+
 .cont-site .site-quatro {
     background-color: var(--cor0);
     display: flex;
@@ -189,7 +188,62 @@ hr {
     height: 350px;
     justify-content: center;
 }
-.cont-site .art{
+
+.cont-site .art {
     background-color: #2fa866;
 }
 
+.barra-pequena {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.barra-pequena .titulo {
+    max-width: 70%;
+    background-color: #c5ebd6;
+}
+
+.barra-pequena>.titulo>h1 {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.barra-pequena>.titulo>p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.barra-pequena>.botao {
+    background-color: #c5ebd6;
+    font-size: 3rem;
+}
+
+.barra-pequena>.botao button {
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    height: 50px;
+    padding: 5px 10px;
+    border: 0;
+}
+
+/* #region parte recente do block */
+.recente-blog {
+    color: brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.recente-blog>h1 {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.recente-blog>.blog {
+    display: flex;
+    flex-direction: row;
+}
+/* #endregion */
